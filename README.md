@@ -6,7 +6,7 @@ A cli for searching kickass.so and watching using peerflix
 
 **Preview**
 
-![preview](https://i.imgur.com/tcSjVz0.gif)
+![preview](https://i.imgur.com/3PdB39U.gif)
 
 **Install**
 
