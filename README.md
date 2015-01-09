@@ -32,8 +32,8 @@ Using a bash / zsh alias makes it much easier to use
 Here is an example alias you can use
 
 ```
-pfxt(){ node ~/code/apps/kickassflix/index.js -t "$@" -c="tv" ;}
-pfxm(){ node ~/code/apps/kickassflix/index.js -t "$@" -c="movies" ;}
+pfxt(){ node ~/code/apps/kickassflix/index.js -t "$@" -c "tv" ;}
+pfxm(){ node ~/code/apps/kickassflix/index.js -t "$@" -c "movies" ;}
 ```
 
 Now you can run

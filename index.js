@@ -35,52 +35,7 @@ if (cat === true) {
   //search kick ass api
   kickass.search(category, query).then(function(body) {
     data = body;
-
-    for (property in data) {
-      if (data.hasOwnProperty(property)) {
-        results++;
-      }
-    }
-
-    //loop through returned data
-    for (property in data) {
-      if (data.hasOwnProperty(property)) {
-
-        /* setting up our vars */
-        var number = property;
-        var title = data[property].title.text;
-        var magnet = data[property].magnet.href;
-        var seed = data[property].seed;
-        var leech = data[property].leech;
-        var size = data[property].size;
-
-        /* sore the data in our object */
-        data_content = {
-          number: number,
-          title: title,
-          magnet: magnet,
-          seed: seed,
-          leech: leech,
-          size: size
-        };
-
-        console.log(number.magenta.bold + ') '.magenta.bold + title.yellow.bold + ' ' + size.blue.bold + ' ' + seed.red.bold + ' ' + leech.green.bold);
-
-        torrent_content.push(data_content);
-
-        count++;
-
-        if (count === results) {
-          prompt.start();
-          console.log(p);
-          prompt.get(['torrent_num'], function(err, result) {
-            downloadTorrent(result.torrent_num);
-          });
-        }
-
-      }
-    }
-
+    processTorrent(data);
   });
 
   //just search
@@ -89,54 +44,57 @@ if (cat === true) {
   //search kick ass api
   kickass.search(query).then(function(body) {
     data = body;
-
-    for (property in data) {
-      if (data.hasOwnProperty(property)) {
-        results++;
-      }
-    }
-
-    //loop through returned data
-    for (property in data) {
-      if (data.hasOwnProperty(property)) {
-
-        /* setting up our vars */
-        var number = property;
-        var title = data[property].title.text;
-        var magnet = data[property].magnet.href;
-        var seed = data[property].seed;
-        var leech = data[property].leech;
-        var size = data[property].size;
-
-        /* sore the data in our object */
-        data_content = {
-          number: number,
-          title: title,
-          magnet: magnet,
-          seed: seed,
-          leech: leech,
-          size: size
-        };
-
-        console.log(number.magenta.bold + ') '.magenta.bold + title.yellow.bold + ' ' + size.blue.bold + ' ' + seed.red.bold + ' ' + leech.green.bold);
-
-        torrent_content.push(data_content);
-
-        count++;
-
-        if (count === results) {
-          prompt.start();
-          console.log(p);
-          prompt.get(['torrent_num'], function(err, result) {
-            downloadTorrent(result.torrent_num);
-          });
-        }
-
-      }
-    }
-
+    processTorrent(data);
   });
 
+}
+
+function processTorrent(torrent) {
+
+  for (property in data) {
+    if (data.hasOwnProperty(property)) {
+      results++;
+    }
+  }
+
+  //loop through returned data
+  for (property in data) {
+    if (data.hasOwnProperty(property)) {
+
+      /* setting up our vars */
+      var number = property;
+      var title = data[property].title.text;
+      var magnet = data[property].magnet.href;
+      var seed = data[property].seed;
+      var leech = data[property].leech;
+      var size = data[property].size;
+
+      /* sore the data in our object */
+      data_content = {
+        number: number,
+        title: title,
+        magnet: magnet,
+        seed: seed,
+        leech: leech,
+        size: size
+      };
+
+      console.log(number.magenta.bold + ') '.magenta.bold + title.yellow.bold + ' ' + size.blue.bold + ' ' + seed.red.bold + ' ' + leech.green.bold);
+
+      torrent_content.push(data_content);
+
+      count++;
+
+      if (count === results) {
+        prompt.start();
+        console.log(p);
+        prompt.get(['torrent_num'], function(err, result) {
+          downloadTorrent(result.torrent_num);
+        });
+      }
+
+    }
+  }
 }
 
 function downloadTorrent(torrent_num) {
