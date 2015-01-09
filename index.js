@@ -5,22 +5,18 @@ var kickass = require('kickass-search'),
   spawn = require('child_process').spawn,
   category = argv.c,
   query = argv.t,
+  peerflix_player = argv.p,
+  peerflix_player_arg = argv.pa,
+  peerflix_port = argv.po,
   data,
   count = 0,
   torrent_number = 0,
   data_content = {},
   torrent_content = [],
-  /*
-  Peerflix config starts here
-  */
-  peerflix_player = "--mpv",
-  peerflix_player_arg = "--not-on-top",
-  peerflix_port = "--port=8888",
-  /*
-  Peerflix config ends here
-  */
   results = 0,
   p = 'Torrent to download (eg. 1 2 3..):'.red.bold;
+
+  console.log(argv);
 
 if (typeof category === 'undefined') {
   var cat = false;

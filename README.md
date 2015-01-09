@@ -19,11 +19,18 @@ A cli for searching kickass.so and watching using peerflix
 To run the app cd into the directory and run
 
 ```
-node index.js -t "Archer 2009 S06E01" -c "tv"
+node index.js --t='Archer 2009 S06E01' --c='tv' --p='--mpv' --pa='--not-on-top' --po='--port=8888'
+
 ```
 -t being the title of the torrent you are searching for
 
--c being the catagory you are searching in (you don't have to do this but it is recommended)
+-c being the catagory you are searching in (optional but recommended)
+
+-p being the player you want peerflix to use (optional)
+
+-pa being any player args you want to pass (optional)
+
+-po being the port you want peerflix to use (optional)
 
 **Alias example**
 
@@ -32,8 +39,8 @@ Using a bash / zsh alias makes it much easier to use
 Here is an example alias you can use
 
 ```
-pfxt(){ node ~/code/apps/kickassflix/index.js -t "$@" -c "tv" ;}
-pfxm(){ node ~/code/apps/kickassflix/index.js -t "$@" -c "movies" ;}
+pfxt(){ node ~/code/apps/kickassflix/index.js --t="$*" --c='tv' --p='--mpv' --pa='--not-on-top' --po='--port=8888';}
+pfxm(){ node ~/code/apps/kickassflix/index.js --t="$*" --c='movies' --p='--mpv' --pa='--not-on-top' --po='--port=8888';}
 ```
 
 Now you can run
