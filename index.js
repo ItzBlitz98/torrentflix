@@ -16,8 +16,6 @@ var kickass = require('kickass-search'),
   results = 0,
   p = 'Torrent to download (eg. 1 2 3..):'.red.bold;
 
-  console.log(argv);
-
 if (typeof category === 'undefined') {
   var cat = false;
 } else {
