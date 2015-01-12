@@ -18,7 +18,6 @@ var search_torrent = lang[0].search_torrent;
 var select_torrent = lang[0].select_torrent;
 
 /* hardcode till added */
-//query = "archer s06e01";
 cat = "";
 page = "1";
 

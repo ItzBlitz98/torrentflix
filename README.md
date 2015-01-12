@@ -6,52 +6,52 @@ A cli for searching kickass.so and watching using peerflix
 
 **Preview**
 
-![preview](https://i.imgur.com/3PdB39U.gif)
+![preview](https://i.imgur.com/GNheslZ.gif)
 
 **Install**
 
 *   First ensure you have nodejs and peerflix installed
-*   Download / clone the repo
-*   run npm install to install dependencies
+*   cd into the directory you want to install the script into
+
+```
+$ git clone https://github.com/ItzBlitz98/kickassflix.git
+
+$ npm install
+
+```
+
 
 **How to use**
 
 To run the app cd into the directory and run
 
 ```
-node index.js --t='Archer 2009 S06E01' --c='tv' --p='--mpv' --pa='--not-on-top' --po='--port=8888'
+node index.js
 
 ```
--t being the title of the torrent you are searching for
 
--c being the catagory you are searching in (optional but recommended)
+**How do i change the settings ?**
 
--p being the player you want peerflix to use (optional)
+To change the app's settings open up config.js.
 
--pa being any player args you want to pass (optional)
+Here you can change peerflix player or use a proxy for kickass.
 
--po being the port you want peerflix to use (optional)
 
 **Alias example**
 
-Using a bash / zsh alias makes it much easier to use
+Using a bash / zsh alias nicer to use.
 
-Here is an example alias you can use
+Here is an example alias you can use (dont forget to change the directory to where your script is located):
 
 ```
-pfxt(){ node ~/code/apps/kickassflix/index.js --t="$*" --c='tv' --p='--mpv' --pa='--not-on-top' --po='--port=8888';}
-pfxm(){ node ~/code/apps/kickassflix/index.js --t="$*" --c='movies' --p='--mpv' --pa='--not-on-top' --po='--port=8888';}
+pfx(){ node ~/code/apps/kickassflix/index.js }
+
 ```
 
 Now you can run
 
 ```
-pfxt archer s06e01
-```
-
-or
-```
-pfxm frozen
+pfx
 ```
 
 anywhere from the command line
