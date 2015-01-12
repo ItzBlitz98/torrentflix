@@ -9,10 +9,10 @@
   "author": "ItzBlitz98",
   "license": "MIT",
   "dependencies": {
+    "chalk": "^0.5.1",
     "child": "0.0.2",
-    "colors": "^1.0.3",
-    "kickass-search": "0.0.8",
-    "minimist": "^1.1.0",
-    "prompt": "^0.2.14"
+    "prompt": "^0.2.14",
+    "request": "^2.51.0",
+    "node-kickass": "ItzBlitz98/node-kickass"
   }
 }
