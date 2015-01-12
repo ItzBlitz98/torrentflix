@@ -1,7 +1,7 @@
 Kickassflix
 ==============
 
-A cli for searching kickass.so and watching using peerflix
+A cli for searching torrent sites and watching using peerflix
 ********************************************************************************
 
 **Preview**
