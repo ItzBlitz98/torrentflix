@@ -16,6 +16,8 @@ A cli for searching kickass.so and watching using peerflix
 ```
 $ git clone https://github.com/ItzBlitz98/kickassflix.git
 
+$ cd kickassflix
+
 $ npm install
 
 ```
