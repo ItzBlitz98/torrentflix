@@ -2,12 +2,12 @@ Kickassflix
 ==============
 
 A cli for searching kickass.so and watching using peerflix
---------------
+********************************************************************************
 
 **Preview**
 
 ![preview](https://i.imgur.com/GNheslZ.gif)
-
+********************************************************************************
 **Install**
 
 *   First ensure you have nodejs and peerflix installed
@@ -39,7 +39,7 @@ Here you can change peerflix player or use a proxy for kickass.
 
 **Alias example**
 
-Using a bash / zsh alias nicer to use.
+Using a bash / zsh alias is recommended and makes it easier to use.
 
 Here is an example alias you can use (dont forget to change the directory to where your script is located):
 
