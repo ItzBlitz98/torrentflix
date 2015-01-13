@@ -64,6 +64,7 @@ pfx
 anywhere from the command line
 
 **Updating**
+
 To update the app and dependencies (scrapers might need to updated if they break)
 
 Simple cd into the directory you cloned and run
