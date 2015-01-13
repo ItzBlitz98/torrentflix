@@ -67,7 +67,7 @@ anywhere from the command line
 
 To update the app and dependencies (scrapers might need to updated if they break)
 
-Simple cd into the directory you cloned and run
+Simply cd into the directory you cloned and run
 
 ```
 $ git pull origin master && npm update
