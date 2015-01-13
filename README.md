@@ -3,7 +3,7 @@ Kickassflix
 
 A cli for searching torrent sites and watching using peerflix.
 
-currently supports kickass and limetorrents.
+currently supports kickass, limetorrents and extratorrent.
 
 ********************************************************************************
 
