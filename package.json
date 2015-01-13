@@ -13,6 +13,7 @@
     "child": "0.0.2",
     "node-kickass": "ItzBlitz98/node-kickass",
     "node-limetorrents": "ItzBlitz98/node-limetorrents",
+    "node-extratorrent": "ItzBlitz98/node-extratorrent",
     "prompt-input": "0.0.1",
     "request": "^2.51.0"
   }
