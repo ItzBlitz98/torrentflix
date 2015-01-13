@@ -5,6 +5,8 @@ A cli for searching torrent sites and watching using peerflix.
 
 currently supports kickass, limetorrents and extratorrent.
 
+Want more ? create an issue with a request or contibute your own scrapers. Pull requests are welcome.
+
 ********************************************************************************
 
 **Preview**
@@ -60,3 +62,14 @@ pfx
 ```
 
 anywhere from the command line
+
+**Updating**
+To update the app and dependencies (scrapers might need to updated if they break)
+
+Simple cd into the directory you cloned and run
+
+```
+$ git pull origin master && npm update
+```
+
+This will keep your config settings, So don't panic.
