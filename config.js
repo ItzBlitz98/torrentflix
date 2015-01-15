@@ -1,9 +1,9 @@
 /* url to use for kickass torrents */
 var kickass_url = "https://kickass.so";
 /* url to use for lime torrents */
-var limetorrents_url = "http://limetorrents.cc";
+var limetorrents_url = "https://limetorrents.unblocked.pw";
 /* url to use for extratorrent */
-var extratorrent_url = "http://extratorrent.cc";
+var extratorrent_url = "https://extratorrent.unblocked.pw";
 /* what player you want peerflix to use */
 var peerflix_player = "--mpv";
 /* what arguments you want peerflix to use for the player */
@@ -11,6 +11,7 @@ var peerflix_player_args = "--not-on-top";
 /* what port you want peerflix to use */
 var peerflix_port = "--port=8888";
 
+var peerflix_command = "peerflix";
 
 /*leave everything below */
 var data_content = {};
@@ -26,6 +27,7 @@ module.exports = {
       peerflix_player: peerflix_player,
       peerflix_player_args: peerflix_player_args,
       peerflix_port: peerflix_port,
+      peerflix_command: peerflix_command
     };
 
     config_content.push(data_content);

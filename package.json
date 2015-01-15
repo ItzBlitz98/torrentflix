@@ -1,20 +1,39 @@
 {
-  "name": "kickassflix",
-  "version": "1.0.0",
-  "description": "Terminal app to search kickass and watch with peerflix",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+  "name": "torrentflix",
+  "description": "CLI to search torrent sites and stream with peerflix.",
+  "version": "1.0.1",
+  "homepage": "https://github.com/ItzBlitz98/torrentflix",
+  "author": {
+    "name": "ItzBlitz98"
   },
-  "author": "ItzBlitz98",
-  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ItzBlitz98/torrentflix.git"
+  },
+  "bugs": {
+    "url": "https://github.com/ItzBlitz98/torrentflix/issues"
+  },
+  "licenses": [
+    {
+      "type": "MIT"
+    }
+  ],
+  "bin": {
+    "kickassflix": "bin/cli"
+  },
+  "engines": {
+    "node": ">= 0.8.0"
+  },
+  "scripts": {},
+  "preferGlobal": true,
   "dependencies": {
     "chalk": "^0.5.1",
     "child": "0.0.2",
-    "node-kickass": "ItzBlitz98/node-kickass",
-    "node-limetorrents": "ItzBlitz98/node-limetorrents",
-    "node-extratorrent": "ItzBlitz98/node-extratorrent",
     "prompt-input": "0.0.1",
-    "request": "^2.51.0"
-  }
+    "request": "^2.51.0",
+    "q": "^1.1.2",
+    "cheerio": "^0.18.0"
+  },
+  "devDependencies": {},
+  "keywords": []
 }
