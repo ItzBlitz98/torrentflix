@@ -32,7 +32,8 @@
     "cli-prompt": "^0.4.1",
     "request": "^2.51.0",
     "q": "^1.1.2",
-    "cheerio": "^0.18.0"
+    "cheerio": "^0.18.0",
+    "commander": "^2.2.0"
   },
   "devDependencies": {},
   "keywords": []
