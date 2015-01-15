@@ -19,14 +19,14 @@ npm install -g torrentflix
 ## Usage
 To run the app run:
 ```
-torrentflix
+$ torrentflix
 ```
 
 Torrentflix comes with a set of default options,
 
 To change these settings or apply a proxy pass the config command with your  editor of choice
 ```
-torrentflix --config="vi"
+$ [sudo?] torrentflix --config="vi"
 ```
 
 ## License
