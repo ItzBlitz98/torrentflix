@@ -29,7 +29,7 @@
   "dependencies": {
     "chalk": "^0.5.1",
     "child": "0.0.2",
-    "prompt-input": "0.0.1",
+    "cli-prompt": "^0.4.1",
     "request": "^2.51.0",
     "q": "^1.1.2",
     "cheerio": "^0.18.0"
