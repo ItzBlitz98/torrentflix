@@ -9,6 +9,12 @@ Want more ? Create an issue with a request, Alternatively you can contribute you
 Pull requests are welcome.
 
 ## Install
+Install peerflix if you haven't already:
+
+```
+npm install -g peerflix
+```
+Then install torrentflix:
 ```
 npm install -g torrentflix
 ```
@@ -26,7 +32,7 @@ Torrentflix comes with a set of default options,
 
 To change these settings or apply a proxy pass the config command with your  editor of choice
 ```
-$ [sudo?] torrentflix --config="vi"
+$ torrentflix --config="vi"
 ```
 
 ## License
