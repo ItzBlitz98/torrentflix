@@ -5,15 +5,15 @@ var limetorrents_url = "http://limetorrents.cc";
 /* url to use for extratorrent */
 var extratorrent_url = "http://extratorrent.cc";
 /* what player you want peerflix to use */
-var peerflix_player = "--mpv";
+var peerflix_player = "--vlc";
 /* what arguments you want peerflix to use for the player */
-var peerflix_player_args = "--not-on-top";
+var peerflix_player_args = "";
 /* what port you want peerflix to use */
 var peerflix_port = "--port=8888";
 /* command to run peerflix (most of the time you can leave this) */
 var peerflix_command = "peerflix";
 /* do you want to fetch subtitles ? (true/false) */
-var use_subtitle = "true";
+var use_subtitle = "false";
 /* subtitle language */
 /* To find the abbriviation for you language go to the site below */
 /* press ctrl + f enter your language and the abbriviation is the first row */
