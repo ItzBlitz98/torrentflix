@@ -35,6 +35,11 @@ To change these settings or apply a proxy pass the config command with your  edi
 $ torrentflix --config="vi"
 ```
 
+## Subtitles
+Torrentflix supports subtitles, By default it shows subtitles in English.
+You can change the subtitle language from the config.
+
+
 ## License
 
 MIT

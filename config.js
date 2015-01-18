@@ -15,8 +15,9 @@ var peerflix_command = "peerflix";
 /* do you want to fetch subtitles ? (true/false) */
 var use_subtitle = "true";
 /* subtitle language */
-/* please use the language abbriviation */
-/* EX: en = English or es = Spanish */
+/* To find the abbriviation for you language go to the site below */
+/* press ctrl + f enter your language and the abbriviation is the first row */
+/* https://github.com/aetheon/node-opensubtitles-client/blob/master/langs.dump.txt */
 var subtitle_language = "eng";
 
 
