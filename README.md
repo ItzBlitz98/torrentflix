@@ -8,6 +8,11 @@ Want more ? Create an issue with a request, Alternatively you can contribute you
 
 Pull requests are welcome.
 
+## Key features
+
+*  Subtitles fetched automatically (Turn on in config).
+*  Multi-file torrent support.
+
 ## Install
 Install peerflix if you haven't already:
 
