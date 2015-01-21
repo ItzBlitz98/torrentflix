@@ -2,9 +2,9 @@
 /* url to use for kickass torrents */
 var kickass_url = "https://kickass.so";
 /* url to use for lime torrents */
-var limetorrents_url = "http://limetorrents.cc";
+var limetorrents_url = "https://limetorrents.unblocked.pw";
 /* url to use for extratorrent */
-var extratorrent_url = "http://extratorrent.cc";
+var extratorrent_url = "https://extratorrent.unblocked.pw";
 /* url to use for nyaa */
 var nyaa_url = "http://www.nyaa.se";
 /* url to use for tokyotosho */
