@@ -24,6 +24,11 @@ var use_subtitle = "false";
 /* press ctrl + f enter your language and the abbriviation is the first row */
 /* https://github.com/aetheon/node-opensubtitles-client/blob/master/langs.dump.txt */
 var subtitle_language = "eng";
+/* do you want to save the history ? */
+var history = "false";
+/* where to save the history file */
+/* ensure its in a writable directory */
+var history_location = './history.json';
 
 
 
@@ -44,7 +49,9 @@ module.exports = {
       peerflix_port: peerflix_port,
       peerflix_command: peerflix_command,
       use_subtitle: use_subtitle,
-      subtitle_language: subtitle_language
+      subtitle_language: subtitle_language,
+      history: history,
+      history_location: history_location
     };
 
     config_content.push(data_content);
