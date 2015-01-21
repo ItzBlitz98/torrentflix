@@ -41,6 +41,26 @@ To change these settings or apply a proxy pass the config command with your  edi
 $ torrentflix --config="vi"
 ```
 
+## History
+Torrentflix can save a history of watched torrents if enabled.
+Printing out the history can be done in two ways:
+
+1. During the site selection prompt press h
+2. Or run peerflix with the --history flag ex:
+
+```
+$ torrentflix --history
+```
+
+Clearing the history can be done with the --clear flag ex:
+```
+$ torrentflix --clear
+```
+
+Please ensure the history file is in a writable directory, You can change the history location with the config flag.
+By default it saves the history in the torrentflix folder.
+
+
 ## Subtitles
 Torrentflix supports subtitles, By default subtitles are disabled you can enable them by running the config command above.
 You can also change the subtitle language from the config.
