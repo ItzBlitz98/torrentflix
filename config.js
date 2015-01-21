@@ -1,9 +1,14 @@
+/* note you can blank a url if you don't want torrentflix to ask you */
 /* url to use for kickass torrents */
 var kickass_url = "https://kickass.so";
 /* url to use for lime torrents */
 var limetorrents_url = "http://limetorrents.cc";
 /* url to use for extratorrent */
 var extratorrent_url = "http://extratorrent.cc";
+/* url to use for nyaa */
+var nyaa_url = "http://www.nyaa.se";
+/* url to use for tokyotosho */
+var tokyotosho_url = "https://www.tokyotosho.info";
 /* what player you want peerflix to use */
 var peerflix_player = "--vlc";
 /* what arguments you want peerflix to use for the player */
@@ -15,7 +20,7 @@ var peerflix_command = "peerflix";
 /* do you want to fetch subtitles ? (true/false) */
 var use_subtitle = "false";
 /* subtitle language */
-/* To find the abbriviation for you language go to the site below */
+/* To find the abbriviation for your language go to the site below */
 /* press ctrl + f enter your language and the abbriviation is the first row */
 /* https://github.com/aetheon/node-opensubtitles-client/blob/master/langs.dump.txt */
 var subtitle_language = "eng";
@@ -32,6 +37,8 @@ module.exports = {
       kickass_url: kickass_url,
       limetorrents_url: limetorrents_url,
       extratorrent_url: extratorrent_url,
+      nyaa_url: nyaa_url,
+      tokyotosho_url: tokyotosho_url,
       peerflix_player: peerflix_player,
       peerflix_player_args: peerflix_player_args,
       peerflix_port: peerflix_port,
