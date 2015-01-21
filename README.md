@@ -10,7 +10,7 @@ Pull requests are welcome.
 
 ## Key features
 
-*  Subtitles fetched automatically (Turn on in config).
+*  Subtitles fetched automatically.
 *  Multi-file torrent support.
 
 ## Install
@@ -41,8 +41,8 @@ $ torrentflix --config="vi"
 ```
 
 ## Subtitles
-Torrentflix supports subtitles, By default it shows subtitles in English.
-You can change the subtitle language from the config.
+Torrentflix supports subtitles, By default subtitles are disabled you can enable them by running the config command above.
+You can also change the subtitle language from the config.
 
 
 ## License
