@@ -28,6 +28,7 @@ var subtitle_language = "eng";
 var history = "false";
 /* where to save the history file */
 /* ensure its in a writable directory */
+/* you don't need to create the file torrentflix will do it just specify where you want it to go */
 var history_location = './history.json';
 
 
