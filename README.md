@@ -12,6 +12,7 @@ Pull requests are welcome.
 
 *  Subtitles fetched automatically.
 *  Multi-file torrent support.
+*  History of streamed torrents.
 
 ## Install
 Install peerflix if you haven't already:
