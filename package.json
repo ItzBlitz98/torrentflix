@@ -31,7 +31,7 @@
     "chalk": "^0.5.1",
     "cheerio": "^0.18.0",
     "child": "0.0.2",
-    "cli-prompt": "^0.4.1",
+    "prompt": "^0.2.14",
     "commander": "^2.2.0",
     "opensubtitles-client": "^1.3.0",
     "q": "^1.1.2",
