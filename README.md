@@ -14,16 +14,45 @@ Pull requests are welcome.
 *  Multi-file torrent support.
 *  History of streamed torrents.
 
-## Install
+## Install (automatic)
 Install peerflix if you haven't already:
 
 ```
 npm install -g peerflix
 ```
+
 Then install torrentflix:
+
 ```
 npm install -g torrentflix
 ```
+
+## Install (manual)
+Install peerflix if you haven't already:
+
+```
+npm install -g peerflix
+```
+
+Clone the repository:
+
+```
+git clone git@github.com:ItzBlitz98/torrentflix.git
+```
+
+Install dependencies:
+
+```
+npm install
+```
+
+You can now update by doing a git pull:
+
+```
+git pull
+```
+
+Now you can run the executable inside the bin folder.
 
 ## Preview
 ![peerflix](https://i.imgur.com/gZfV4o4.png)
