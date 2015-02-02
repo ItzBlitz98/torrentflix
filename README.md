@@ -55,7 +55,7 @@ git pull
 Now you can run the executable inside the bin folder.
 
 ## Preview
-![peerflix](https://i.imgur.com/gZfV4o4.png)
+![peerflix](https://i.imgur.com/rre0MtK.png)
 
 ## Usage
 To run the app run:
