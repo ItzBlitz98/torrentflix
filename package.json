@@ -27,7 +27,6 @@
   "scripts": {},
   "preferGlobal": true,
   "dependencies": {
-    "app-root-path": "^1.0.0",
     "chalk": "^0.5.1",
     "cheerio": "^0.18.0",
     "child": "0.0.2",
