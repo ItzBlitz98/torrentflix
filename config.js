@@ -6,7 +6,7 @@ var limetorrents_url = "http://limetorrents.cc";
 /* url to use for extratorrent */
 var extratorrent_url = "http://extratorrent.cc";
 /* url to use for yts */
-var yts_url = "https://yify.unblocked.pw";
+var yts_url = "https://yts.re";
 /* url to use for nyaa */
 var nyaa_url = "http://www.nyaa.se";
 /* url to use for tokyotosho */
