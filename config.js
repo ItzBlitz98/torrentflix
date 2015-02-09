@@ -5,6 +5,8 @@ var kickass_url = "https://kickass.to";
 var limetorrents_url = "http://limetorrents.cc";
 /* url to use for extratorrent */
 var extratorrent_url = "http://extratorrent.cc";
+/* url to use for yts */
+var yts_url = "https://yify.unblocked.pw";
 /* url to use for nyaa */
 var nyaa_url = "http://www.nyaa.se";
 /* url to use for tokyotosho */
@@ -43,6 +45,7 @@ module.exports = {
       kickass_url: kickass_url,
       limetorrents_url: limetorrents_url,
       extratorrent_url: extratorrent_url,
+      yts_url:yts_url,
       nyaa_url: nyaa_url,
       tokyotosho_url: tokyotosho_url,
       peerflix_player: peerflix_player,
