@@ -1,6 +1,6 @@
 /* note you can blank a url if you don't want torrentflix to ask you */
 /* url to use for kickass torrents */
-var kickass_url = "https://kickass.so";
+var kickass_url = "https://kickass.to";
 /* url to use for lime torrents */
 var limetorrents_url = "http://limetorrents.cc";
 /* url to use for extratorrent */
