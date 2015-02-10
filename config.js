@@ -7,6 +7,8 @@ var limetorrents_url = "http://limetorrents.cc";
 var extratorrent_url = "http://extratorrent.cc";
 /* url to use for yts */
 var yts_url = "https://yts.re";
+/* url to use for thepiratebay */
+var tpb_url = "https://thepiratebay.se";
 /* url to use for nyaa */
 var nyaa_url = "http://www.nyaa.se";
 /* url to use for tokyotosho */
@@ -46,6 +48,7 @@ module.exports = {
       limetorrents_url: limetorrents_url,
       extratorrent_url: extratorrent_url,
       yts_url:yts_url,
+      tpb_url: tpb_url,
       nyaa_url: nyaa_url,
       tokyotosho_url: tokyotosho_url,
       peerflix_player: peerflix_player,
