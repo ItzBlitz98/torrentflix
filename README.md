@@ -2,7 +2,7 @@
 
 A cli tool for searching torrent sites and streaming using peerflix.
 
-It currently supports kickasstorrents, Extratorrent, Limetorrents, nyaa.se & tokyotosho.
+It currently supports kickasstorrents, The Pirate Bay, YTS, Extratorrent, Limetorrents, nyaa.se & tokyotosho.
 
 Want more ? Create an issue with a request, Alternatively you can contribute your own scrapers.
 
