@@ -4,7 +4,7 @@ var kickass_url = "https://kickass.to";
 /* url to use for rarbg */
 var rarbg_url = "https://rarbg.com";
 /* url to use for lime torrents */
-var limetorrents_url = "https://limetorrents.unblocked.pw";
+var limetorrents_url = "http://limetorrents.cc";
 /* url to use for extratorrent */
 var extratorrent_url = "http://extratorrent.cc";
 /* url to use for yts */
