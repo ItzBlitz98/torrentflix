@@ -3,6 +3,8 @@
 var kickass_url = "https://kickass.to";
 /* url to use for rarbg */
 var rarbg_url = "https://rarbg.com";
+/* url to use for eztv */
+var eztv_url = "https://eztv.ch";
 /* url to use for lime torrents */
 var limetorrents_url = "http://limetorrents.cc";
 /* url to use for extratorrent */
@@ -49,6 +51,7 @@ module.exports = {
     data_content = {
       kickass_url: kickass_url,
       rarbg_url: rarbg_url,
+      eztv_url: eztv_url,
       limetorrents_url: limetorrents_url,
       extratorrent_url: extratorrent_url,
       yts_url:yts_url,
