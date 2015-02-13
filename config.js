@@ -4,7 +4,7 @@ var kickass_url = "https://kickass.to";
 /* url to use for rarbg */
 var rarbg_url = "https://rarbg.com";
 /* url to use for lime torrents */
-var limetorrents_url = "http://limetorrents.cc";
+var limetorrents_url = "https://limetorrents.unblocked.pw";
 /* url to use for extratorrent */
 var extratorrent_url = "http://extratorrent.cc";
 /* url to use for yts */
@@ -30,13 +30,14 @@ var use_subtitle = "false";
 /* press ctrl + f enter your language and the abbriviation is the first row */
 /* https://github.com/aetheon/node-opensubtitles-client/blob/master/langs.dump.txt */
 var subtitle_language = "eng";
-/* do you want to save the history ? */
+/* do you want to save the history ? (true/false) */
 var history = "false";
 /* where to save the history file */
 /* ensure its in a writable directory */
 /* you don't need to create the file torrentflix will do it just specify where you want it to go */
 var history_location = './history.json';
-
+/* if you want to show when the torrent was added where available (true/false) */
+var date_added = 'false';
 
 
 /*leave everything below */
@@ -61,7 +62,8 @@ module.exports = {
       use_subtitle: use_subtitle,
       subtitle_language: subtitle_language,
       history: history,
-      history_location: history_location
+      history_location: history_location,
+      date_added:date_added
     };
 
     config_content.push(data_content);
