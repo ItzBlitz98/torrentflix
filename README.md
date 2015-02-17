@@ -76,6 +76,8 @@ Why? When updating using the automatic method unfortunately your config and hist
 ```
 $ torrentflix --location="absolute_path"
 ```
+You will still need to run this command after every update but it won't replace your settings / history. (If you can help add a nice crossplatform alternative pull-requests are welcome)
+
 
 Don't forget you can always run the help flag to remind you of these
 
