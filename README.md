@@ -70,6 +70,19 @@ To change these settings or apply a proxy pass the config command with your  edi
 $ torrentflix --config="vi"
 ```
 
+Torrentflix allows you to change where its config and history files are located.
+
+Why? When updating using the automatic method unfortunately your config and history files will be replaced. To change the location simply enter:
+```
+$ torrentflix --location="absolute_path"
+```
+
+Don't forget you can always run the help flag to remind you of these
+
+```
+$ torrentflix --help
+```
+
 ## History
 Torrentflix can save a history of watched torrents if enabled.
 Printing out the history can be done in two ways:
