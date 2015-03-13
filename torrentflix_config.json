@@ -20,6 +20,10 @@
   "//tpb_info": "url to use for the pirate bay",
   "tpb_url": "https://thepiratebay.se",
 
+  "seedpeer_info": "url to use for seedpeer",
+
+  "seedpeer_url": "http://seedpeer.eu",
+
   "//nyaa_info": "url to use for nyaa",
   "nyaa_url": "http://www.nyaa.se",
 
