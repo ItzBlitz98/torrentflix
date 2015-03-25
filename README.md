@@ -11,7 +11,6 @@ Pull requests are welcome.
 ## Key features
 
 *  Subtitles fetched automatically.
-*  Multi-file torrent support.
 *  History of streamed torrents.
 
 ## Install (automatic)
