@@ -14,6 +14,9 @@
   "//extratorrent_info": "url to use for extratorrent",
   "extratorrent_url": "http://extratorrent.cc",
 
+  "//strike_info": "url to use for getstrike",
+  "strike_url": "https://getstrike.net",
+
   "//yts_info": "url to use for yts",
   "yts_url": "https://yts.re",
 
