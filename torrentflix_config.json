@@ -23,8 +23,10 @@
   "//tpb_info": "url to use for the pirate bay",
   "tpb_url": "https://thepiratebay.se",
 
-  "//seedpeer_info": "url to use for seedpeer",
+  "//btdigg_info": "url to use for btdig",
+  "btdigg_url": "https://btdigg.org",
 
+  "//seedpeer_info": "url to use for seedpeer",
   "seedpeer_url": "http://seedpeer.eu",
 
   "//leetx_info": "url to use for 1337x",
