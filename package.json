@@ -1,7 +1,7 @@
 {
   "name": "torrentflix",
   "description": "CLI to search torrent sites and stream with peerflix.",
-  "version": "7.0.0",
+  "version": "7.0.1",
   "homepage": "https://github.com/ItzBlitz98/torrentflix",
   "author": {
     "name": "ItzBlitz98"
