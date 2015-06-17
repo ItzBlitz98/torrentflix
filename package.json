@@ -27,15 +27,16 @@
   "scripts": {},
   "preferGlobal": true,
   "dependencies": {
+    "async": "^0.9.0",
     "chalk": "^0.5.1",
     "cheerio": "^0.18.0",
     "child": "0.0.2",
     "commander": "^2.2.0",
+    "configstore": "^1.1.0",
     "inquirer": "^0.8.0",
     "moment": "^2.9.0",
     "opensubtitles-client": "^1.3.0",
     "q": "^2.0.3",
-    "async": "^0.9.0",
     "read-torrent": "^1.2.0",
     "request": "^2.51.0"
   },
