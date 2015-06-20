@@ -54,6 +54,8 @@ git pull
 Now you can run the executable inside the bin folder.
 
 ## Preview
+A short video preview: http://cdfile.cf/f/27bd9cbf.webm
+
 ![peerflix](https://i.imgur.com/rre0MtK.png)
 
 ## Usage
