@@ -1,7 +1,6 @@
 # Torrentflix
 
-Forked torrentflix with the goal of using it's torrent searching libraries as a torrent
-searching module that can have it's results parsed programmatically.
+A cli tool for searching torrent sites and streaming using peerflix.
 
 It currently supports kickasstorrents, 1337x, seedpeer, Rarbg, The Pirate Bay, YTS, Extratorrent, Limetorrents, nyaa.se & tokyotosho.
 
@@ -14,6 +13,18 @@ Pull requests are welcome.
 *  Subtitles fetched automatically.
 *  History of streamed torrents.
 
+## Install (automatic)
+Install peerflix if you haven't already:
+
+```
+npm install -g peerflix
+```
+
+Then install torrentflix:
+
+```
+npm install -g torrentflix
+```
 
 ## Install (manual)
 Install peerflix if you haven't already:
