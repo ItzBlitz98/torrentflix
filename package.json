@@ -1,6 +1,6 @@
 {
   "name": "torrentflix",
-  "description": "A fork of torrentflix to allow programmatic searching of torrent sites (and thus parsing of results).",
+  "description": "A fork of torrentflix to allow programmatic searching of torrent sites.",
   "version": "8.0.1",
   "homepage": "https://github.com/leshow/torrentflix",
   "author": {
