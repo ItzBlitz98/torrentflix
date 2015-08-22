@@ -1,19 +1,18 @@
 {
-  "name": "torrentflix",
-  "description": "A fork of torrentflix to allow programmatic searching of torrent sites.",
-  "version": "8.0.1",
-  "homepage": "https://github.com/leshow/torrentflix",
-  "author": {
-    "name": "ItzBlitz98",
-    "name": "Evan Cameron <cameron.evan@gmail.com>"
-  },
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/leshow/torrentflix.git"
-  },
-  "bugs": {
-    "url": "https://github.com/leshow/torrentflix/issues"
-  },
+    "name": "torrentflix",
+    "description": "CLI to search torrent sites and stream with peerflix.",
+    "version": "8.0.1",
+    "homepage": "https://github.com/ItzBlitz98/torrentflix",
+    "author": {
+        "name": "ItzBlitz98"
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/ItzBlitz98/torrentflix.git"
+    },
+    "bugs": {
+        "url": "https://github.com/ItzBlitz98/torrentflix/issues"
+    },
   "licenses": [
     {
       "type": "MIT"
