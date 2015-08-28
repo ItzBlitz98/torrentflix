@@ -6,6 +6,9 @@
   "author": {
     "name": "ItzBlitz98"
   },
+  "contributors" : {
+    "name": "Evan Cameron <www.github.com/leshow>"  
+  },
   "repository": {
     "type": "git",
     "url": "https://github.com/ItzBlitz98/torrentflix.git"
