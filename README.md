@@ -12,6 +12,7 @@ Pull requests are welcome.
 
 *  Subtitles fetched automatically.
 *  History of streamed torrents.
+*  Stream or download torrents.
 
 ## Install (automatic)
 Install peerflix if you haven't already:
@@ -62,6 +63,13 @@ A short video preview: http://webm.host/365df/vid.webm
 To run the app run:
 ```
 $ torrentflix
+```
+
+## Cli arguments
+
+Torrentflix has some handy cli arguements you can see them using the help flag.
+```
+$ torrentflix --help
 ```
 
 ## History
