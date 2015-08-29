@@ -1,13 +1,13 @@
 {
   "name": "torrentflix",
   "description": "CLI to search torrent sites and stream with peerflix.",
-  "version": "8.0.1",
+  "version": "8.5.0",
   "homepage": "https://github.com/ItzBlitz98/torrentflix",
   "author": {
     "name": "ItzBlitz98"
   },
   "contributors" : {
-    "name": "Evan Cameron <www.github.com/leshow>"  
+    "name": "Evan Cameron <www.github.com/leshow>"
   },
   "repository": {
     "type": "git",
