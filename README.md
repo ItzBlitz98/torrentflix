@@ -81,8 +81,7 @@ $ torrentflix --clear
 ```
 
 ## Subtitles
-Torrentflix supports subtitles, By default subtitles are disabled you can enable them by running the config command above.
-You can also change the subtitle language from the config.
+By default subtitles are disabled but you can enable them by running `torrentflix --config=nano` and setting *use_subtitle* to true. You can also change *subtitle_language* to one of [this list](https://github.com/divhide/node-subtitler/blob/master/langs.dump.txt), just be sure to use the three letter code.
 
 
 ## License
