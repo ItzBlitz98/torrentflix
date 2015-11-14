@@ -34,6 +34,7 @@
     "chalk": "^0.5.1",
     "cheerio": "^0.18.0",
     "child": "0.0.2",
+    "spawn-cmd": "^0.0.2",
     "commander": "^2.2.0",
     "configstore": "^1.1.0",
     "inquirer": "^0.8.0",
