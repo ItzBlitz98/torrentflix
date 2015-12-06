@@ -2,7 +2,7 @@
 
 A cli tool for searching torrent sites and streaming using peerflix.
 
-It currently supports kickasstorrents, 1337x, seedpeer, Rarbg, The Pirate Bay, YTS, Extratorrent, Limetorrents, nyaa.se, tokyotosho & Cpasbien.
+It currently supports kickasstorrents, 1337x, seedpeer, Rarbg, The Pirate Bay, YTS, Extratorrent, Limetorrents, nyaa.se, tokyotosho, Cpasbien & eztv.
 
 Want more ? Create an issue with a request, Alternatively you can contribute your own scrapers.
 
