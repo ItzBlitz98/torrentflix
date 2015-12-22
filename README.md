@@ -1,4 +1,4 @@
-# Torrentflix ![Travis](https://api.travis-ci.org/ItzBlitz98/torrentflix.svg?branch=master) [![Dependency Status](https://www.versioneye.com/nodejs/torrentflix/8.6.2/badge?style=flat)](https://www.versioneye.com/nodejs/torrentflix/8.6.2)
+# Torrentflix [![Travis](https://api.travis-ci.org/ItzBlitz98/torrentflix.svg?branch=master)](https://travis-ci.org/ItzBlitz98/torrentflix) [![Dependency Status](https://www.versioneye.com/nodejs/torrentflix/8.6.2/badge?style=flat)](https://www.versioneye.com/nodejs/torrentflix/8.6.2)
 
 A cli tool for searching torrent sites and streaming using peerflix.
 
