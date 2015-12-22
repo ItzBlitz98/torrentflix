@@ -1,4 +1,4 @@
-# Torrentflix
+# Torrentflix ![Travis](https://api.travis-ci.org/ItzBlitz98/torrentflix.svg?branch=master)
 
 A cli tool for searching torrent sites and streaming using peerflix.
 
