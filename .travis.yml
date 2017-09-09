@@ -10,7 +10,8 @@ node_js:
 cache:
   directories:
     - node_modules
-
+before_install:
+  - npm cache clean
 install:
   - npm install -g jshint
   - npm install -g npm@latest
