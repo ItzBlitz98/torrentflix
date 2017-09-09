@@ -32,7 +32,7 @@
   "preferGlobal": true,
   "dependencies": {
     "async": "^1.5.0",
-    "chalk": "^1.1.1",
+    "chalk": "^2.1.0",
     "cheerio": "^0.19.0",
     "child": "0.0.3",
     "spawn-cmd": "^0.0.2",
