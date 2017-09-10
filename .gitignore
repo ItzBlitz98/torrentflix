@@ -1,3 +1,4 @@
 node_modules/
 history.json
 .idea
+package-lock.json
