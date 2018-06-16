@@ -14,20 +14,7 @@ Pull requests are welcome.
 *  History of streamed torrents.
 *  Stream or download torrents.
 
-## Install (automatic)
-Install peerflix if you haven't already:
-
-```
-npm install -g peerflix
-```
-
-Then install torrentflix:
-
-```
-npm install -g torrentflix
-```
-
-## Install (manual)
+## Install
 Install peerflix if you haven't already:
 
 ```
@@ -37,7 +24,7 @@ npm install -g peerflix
 Clone the repository:
 
 ```
-git clone git@github.com:ItzBlitz98/torrentflix.git
+git clone git@github.com:skalg/torrentflix.git
 ```
 
 Install dependencies:
