@@ -1,7 +1,7 @@
 {
   "name": "torrentflix",
   "description": "CLI to search torrent sites and stream with peerflix.",
-  "version": "9.0.4",
+  "version": "9.0.5",
   "homepage": "https://github.com/ItzBlitz98/torrentflix",
   "author": {
     "name": "ItzBlitz98"
@@ -42,13 +42,13 @@
     "promise": "^8.0.1",
     "q": "^2.0.3",
     "read-torrent": "^1.3.0",
-    "request": "^2.81.0",
+    "request": "^2.87.0",
     "spawn-cmd": "^0.0.2",
     "subtitler": "^2.6.0",
     "torrent-name-parser": "^0.6.5",
     "torrent_project_api": "^0.0.4",
     "trakt.tv": "^7.0.0",
-    "xml2json": "^0.11.0"
+    "xml2json": "^0.11.2"
   },
   "devDependencies": {},
   "keywords": []
