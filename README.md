@@ -70,18 +70,6 @@ $ torrentflix --clear
 ## Subtitles
 By default subtitles are disabled but you can enable them by running `torrentflix --config=nano` and setting *use_subtitle* to true. You can also change *subtitle_language* to one of [this list](https://github.com/divhide/node-subtitler/blob/master/langs.dump.txt), just be sure to use the three letter code.
 
-## Trakt
-Before using it you need to create your Trakt API Key
-Visit : https://trakt.tv/oauth/applications/new
-Go to the Trakt API application signup form.
-You’ll have to sign in to your Trakt account, so create one if you don’t have one yet and then make sure you are redirected to a page with the heading “Create a Trakt.tv API App”.
-Fill out the form as follows:
-Give your API a name and a description.
-Enter in redirection URL: 'urn:ietf:wg:oauth:2.0:oob'
-Make sure /checkin and /scrobble are checked
-Save
-Copy and paste your Client ID and Client Secret in the lib/trakt.js file.
-
 ## License
 
 MIT
