@@ -14,20 +14,7 @@ Pull requests are welcome.
 *  History of streamed torrents.
 *  Stream or download torrents.
 
-## Install (automatic)
-Install peerflix if you haven't already:
-
-```
-npm install -g peerflix
-```
-
-Then install torrentflix:
-
-```
-npm install -g torrentflix
-```
-
-## Install (manual)
+## Install
 Install peerflix if you haven't already:
 
 ```
@@ -37,7 +24,7 @@ npm install -g peerflix
 Clone the repository:
 
 ```
-git clone git@github.com:ItzBlitz98/torrentflix.git
+git clone git@github.com:skalg/torrentflix.git
 ```
 
 Install dependencies:
@@ -82,7 +69,6 @@ $ torrentflix --clear
 
 ## Subtitles
 By default subtitles are disabled but you can enable them by running `torrentflix --config=nano` and setting *use_subtitle* to true. You can also change *subtitle_language* to one of [this list](https://github.com/divhide/node-subtitler/blob/master/langs.dump.txt), just be sure to use the three letter code.
-
 
 ## License
 
