@@ -1,4 +1,4 @@
-# Torrentflix [![Travis](https://api.travis-ci.org/ItzBlitz98/torrentflix.svg?branch=master)](https://travis-ci.org/ItzBlitz98/torrentflix) [![Dependency Status](https://www.versioneye.com/user/projects/59b46c536725bd004960974f/badge.svg?style=flat-square)](https://www.versioneye.com/user/projects/59b46c536725bd004960974f)
+# Torrentflix [![Travis](https://api.travis-ci.org/ItzBlitz98/torrentflix.svg?branch=master)](https://travis-ci.org/ItzBlitz98/torrentflix)
 
 A cli tool for searching torrent sites and streaming using peerflix.
 
@@ -11,6 +11,7 @@ Pull requests are welcome.
 ## Key features
 
 *  Subtitles fetched automatically.
+*  Trakt.tv integration.
 *  History of streamed torrents.
 *  Stream or download torrents.
 
@@ -55,8 +56,6 @@ git pull
 Now you can run the executable inside the bin folder.
 
 ## Preview
-A short video preview: http://webm.host/365df/vid.webm
-
 ![peerflix](https://i.imgur.com/rre0MtK.png)
 
 ## Usage
