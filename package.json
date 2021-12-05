@@ -32,7 +32,7 @@
   "dependencies": {
     "async": "3.2.0",
     "chalk": "4.0.0",
-    "cheerio": "^1.0.0-rc.3",
+    "cheerio": "^1.0.0-rc.10",
     "child": "0.0.3",
     "commander": "5.0.0",
     "configstore": "5.0.1",
@@ -50,7 +50,7 @@
     "subtitler": "^2.7.0",
     "torrent-name-parser": "^0.6.5",
     "torrent_project_api": "^0.0.4",
-    "trakt.tv": "^8.0.0"
+    "trakt.tv": "^8.1.1"
   },
   "devDependencies": {},
   "keywords": []
